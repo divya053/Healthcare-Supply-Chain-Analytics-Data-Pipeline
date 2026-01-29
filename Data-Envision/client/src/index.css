@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Enterprise Blue & Slate Palette - Clean, Professional, Trustworthy */
+  --background: 222 47% 11%;
+  --foreground: 210 40% 98%;
+
+  --card: 217 33% 17%;
+  --card-foreground: 210 40% 98%;
+
+  --popover: 222 47% 11%;
+  --popover-foreground: 210 40% 98%;
+
+  --primary: 217 91% 60%;
+  --primary-foreground: 222 47% 11%;
+
+  --secondary: 217 33% 22%;
+  --secondary-foreground: 210 40% 98%;
+
+  --muted: 217 33% 20%;
+  --muted-foreground: 215 20% 65%;
+
+  --accent: 199 89% 48%; /* Cyan/Teal accent for data viz */
+  --accent-foreground: 222 47% 11%;
+
+  --destructive: 0 63% 61%;
+  --destructive-foreground: 210 40% 98%;
+
+  --border: 217 33% 22%;
+  --input: 217 33% 20%;
+  --ring: 217 91% 60%;
+
+  --radius: 0.5rem;
+
+  /* Custom Chart Colors */
+  --chart-1: 217 91% 60%; /* Blue */
+  --chart-2: 199 89% 48%; /* Cyan */
+  --chart-3: 280 75% 60%; /* Purple */
+  --chart-4: 150 60% 50%; /* Green */
+  --chart-5: 350 70% 60%; /* Red */
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground antialiased selection:bg-primary/20;
+    font-family: 'Inter', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight text-white;
+  }
+  /* Monospace for data/code */
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar for heavy data tables */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-700/50 rounded-full hover:bg-slate-600;
+}
+
+/* Subtle animations */
+.animate-enter {
+  animation: enter 0.4s ease-out forwards;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+@keyframes enter {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.glass-card {
+  @apply bg-card/50 backdrop-blur-sm border border-white/5 shadow-xl;
+}

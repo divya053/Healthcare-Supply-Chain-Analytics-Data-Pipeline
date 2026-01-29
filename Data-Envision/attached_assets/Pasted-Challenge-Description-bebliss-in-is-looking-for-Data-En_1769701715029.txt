@@ -1,0 +1,135 @@
+Challenge Description
+bebliss.in is looking for Data Engineering interns who are curious about healthcare supply chain and ready to solve complex data problems. This challenge focuses on building production-ready data pipelines that can handle real-world healthcare supply chain data.
+
+The Challenge
+Build a comprehensive data engineering solution for healthcare supply chain management:
+
+1. Data Processing & ETL
+Design and implement ETL pipelines for healthcare supply chain data
+Handle various data formats (CSV, JSON, Excel, APIs)
+Implement data validation and quality checks
+Build data transformation workflows
+2. Database Management
+Design efficient database schemas for supply chain data
+Implement data warehousing solutions
+Optimize queries for performance
+Handle data relationships and constraints
+3. Data Pipeline Development
+Build scalable data pipelines
+Implement batch and streaming processing
+Handle data ingestion from multiple sources
+Create data orchestration workflows
+4. Cloud Infrastructure
+Deploy data pipelines on AWS
+Implement data storage solutions (S3, RDS, Redshift)
+Set up monitoring and logging
+Optimize for cost and performance
+Technical Requirements
+Core Technologies:
+
+Python 3.10+
+Data Processing (Pandas, PySpark)
+ETL Frameworks (Apache Airflow, Luigi, Prefect)
+Databases (PostgreSQL, MySQL, MongoDB)
+Cloud Infrastructure (AWS - S3, RDS, EC2, Lambda)
+Data Warehousing (Redshift, Snowflake - optional)
+Recommended:
+Docker for containerization
+Apache Airflow for orchestration
+Jupyter Notebooks for data exploration
+Monitoring tools (Grafana, CloudWatch)
+Deliverables
+1. Core System (Mandatory)
+ETL Pipeline
+
+Complete ETL process for healthcare supply chain data
+Data extraction from multiple sources
+Data transformation and cleaning
+Data loading into target systems
+Database Design
+Well-designed database schema
+Efficient indexing strategies
+Data relationships and constraints
+Query optimization
+Data Pipeline
+Automated data processing workflow
+Error handling and retry mechanisms
+Data quality checks
+Monitoring and alerting
+Deployment
+Cloud deployment on AWS
+Containerization (Docker)
+Documentation for deployment
+Cost optimization strategies
+2. Code Quality Requirements
+Clean, modular Python code
+Comprehensive error handling
+Data validation and quality checks
+Clear documentation and README
+Environment configuration management
+Evaluation Criteria
+A. Technical Implementation (60 points)
+
+ETL Pipeline Quality (20 pts): Data extraction, transformation, loading efficiency
+Database Design (15 pts): Schema design, optimization, relationships
+Data Pipeline Architecture (15 pts): Scalability, reliability, error handling
+Cloud Deployment (10 pts): AWS integration, containerization, monitoring
+B. Functionality & Results (25 points)
+Data Processing Accuracy (15 pts): Data quality, validation, completeness
+Demo & Documentation (10 pts): Video clarity, documentation quality, setup instructions
+C. Innovation & Best Practices (15 points)
+Creative Solutions (8 pts): Novel approaches, optimization strategies
+Production Readiness (7 pts): Error handling, monitoring, scalability
+Bonus Points (Up to +15 Extra):
+Advanced Features (+5): Streaming processing, real-time pipelines
+Technical Excellence (+5): Comprehensive testing, monitoring, data quality frameworks
+Innovation (+5): Unique solutions, exceptional optimization
+Technologies
+Python
+ETL
+Data Processing
+PostgreSQL
+MongoDB
+AWS
+Apache Airflow
+Docker
+Pandas
+PySpark
+Requirements
+- Strong Python programming skills
+- Understanding of data processing and ETL concepts
+- Database design and management knowledge
+- Experience with SQL and NoSQL databases
+- Familiarity with cloud infrastructure (AWS preferred)
+- Data analysis and problem-solving mindset
+- Final year students or recent graduates preferred
+Evaluation Criteria
+Technical Implementation (60%): ETL Pipeline Quality (20%), Database Design (15%), Data Pipeline Architecture (15%), Cloud Deployment (10%)
+
+Functionality & Results (25%): Data Processing Accuracy (15%), Demo & Documentation (10%)
+
+Innovation & Best Practices (15%): Creative Solutions (8%), Production Readiness (7%)
+
+Bonus Points: Advanced Features (+5), Technical Excellence (+5), Innovation (+5)
+
+Submission Format
+GitHub repository link - Complete source code with clear README
+
+README.md with:
+
+Architecture diagram showing data pipeline
+Setup instructions
+Database schema documentation
+Data flow and transformation logic
+3-5 minute demo video showing:
+
+ETL pipeline execution
+Data processing workflow
+Database operations
+Cloud deployment demonstration
+Technical report (PDF/markdown):
+
+System architecture
+Design decisions and rationale
+Challenges faced and solutions
+Performance metrics and optimization
